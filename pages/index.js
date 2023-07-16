@@ -5,7 +5,7 @@ function Amiso() {
   return (
     <>
       <div className="main">
-        <div className="flex flex-col justify-center section w-full bg-white">
+        <div className="w-full">
           <navbar className="navbar">
             <div className="md:flex items-center justify-between py-8 mx-12">
               <div className="flex text-2xitems-center">
@@ -60,10 +60,10 @@ function Amiso() {
                     <input
                       type="email"
                       placeholder="Your email address"
-                      className="h-14 border-2 border-gray outline-none text-gray-700 rounded-l-lg my-4 px-4"
+                      className="w-48 h-14 border-2 border-gray outline-none text-gray-700 rounded-l-lg my-4 px-4"
                     />
                   </div>
-                  <div className="md:w-48 h-14 font-semibold text-center bg-green-700 hover:bg-green-800 py-4 mt-4 text-white rounded-r-lg">
+                  <div className="w-48 h-14 font-semibold text-center bg-green-700 hover:bg-green-800 py-4 mt-4 text-white rounded-r-lg">
                     <button>Get Started</button>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ function Amiso() {
             <div className="mx-12 pr-4">
               <h1 className="text-4xl pt-8 font-bold">Incredible</h1>
               <div>
-                <p className="my-6 text-xl w-full leading-8">
+                <p className="my-6 text-xl leading-8">
                   Consequatur quidem deserunt qui fugit cumque ut esse est{" "}
                   <br />
                   dignissimos. Itaque quia et veritatis. Qui voluptatem dolor
@@ -106,7 +106,7 @@ function Amiso() {
                   deleniti. Possimus praesentium sunt aut tempora ut alias.
                 </p>
               </div>
-              <button className="w-48 flex justify-around py-2 h-11 rounded-md font-semibold bg-green-700 hover:bg-green-800 text-white font-medium ">
+              <button className="w-48 flex justify-around py-2 h-11 rounded-md font-semibold-black bg-green-700 hover:bg-green-800 text-white font-medium ">
                 Get Started
                 <img src="/image/arrow.png" className="w-6 fill-blue-500" />
               </button>
@@ -123,7 +123,7 @@ function Amiso() {
                 labore libero. Magni tenetur delectus. Et consequatur <br />
                 accusantium quisquam reiciendis aut.
               </p>
-              <button className="w-48 h-11 flex justify-around py-2 rounded-md font-semibold bg-green-700 hover:bg-green-800 text-white font-medium ">
+              <button className="w-48 h-11 flex justify-around py-2 rounded-md font-semibold-black bg-green-700 hover:bg-green-800 text-white font-medium ">
                 Get Started
                 <img src="/image/arrow.png" className="w-6 fill-blue-500" />
               </button>
@@ -135,20 +135,20 @@ function Amiso() {
             <div className="mx-12 pr-4">
               <h1 className="text-4xl pt-8 font-bold">Intelligent</h1>
               <div>
-                <p className="my-6 text-xl w-full leading-8">
+                <p className="my-6 text-xl md:w-full leading-8">
                   Neque aperiam labore reiciendis fugit error mollitia. Repellat
                   non <br /> voluptatem expedita quos quia. Quae architecto quia
                   perferendis <br /> dicta facilis. Impedit aut sit. Voluptatem
                   praesentium rem officiis.
                 </p>
               </div>
-              <button className="w-48 flex justify-around py-2 h-11 rounded-md font-semibold bg-green-700 hover:bg-green-800 text-white font-medium ">
+              <button className="w-48 flex justify-around py-2 h-11 rounded-md font-semibold-black bg-green-700 hover:bg-green-800 text-white font-medium ">
                 Get Started
                 <img src="/image/arrow.png" className="w-6 fill-blue-500" />
               </button>
             </div>
           </div>
-          <div className="md:w-full md:h-full bg-gray-200 text-center">
+          <div className="md:h-full bg-gray-100 text-center">
             <div className="py-24">
               <h1 className="text-4xl font-bold">Our service features</h1>
               <p className=" py-4">
@@ -156,8 +156,8 @@ function Amiso() {
                 natus molestiae fugiat cum consequatur quia <br /> sunt.
               </p>
             </div>
-            <div className="md:flex justify-around flex-wrap">
-              <div className="w-[380px] h-60 bg-white my-10 mx-8 pt-24 rounded-md shadow-lg hover:shadow-gray-500/50  ">
+            <div className="flex justify-center flex-wrap">
+              <div className="w-[380px] h-64 bg-white my-10 mx-8 pt-24 rounded-md shadow-lg hover:shadow-gray-500/50  ">
                 <h1 className="text-4xl font-bold text-start px-8">
                   Incredible
                 </h1>
@@ -166,21 +166,21 @@ function Amiso() {
                   dolorum. Natus facere voluptatem.
                 </p>
               </div>
-              <div className="w-[380px] h-60 bg-white my-10 mx-8 pt-24 rounded-md hover:shadow-lg shadow-gray-500/50  ">
+              <div className="w-[380px] h-64 bg-white my-10 mx-8 pt-24 rounded-md hover:shadow-lg shadow-gray-500/50  ">
                 <h1 className="text-4xl font-bold text-start px-8">Generic</h1>
                 <p className="w-54 mx-8 text-start pt-4">
                   Adipisci tempora pariatur modi recusandae. Omnis neque
                   dolorum. Natus facere voluptatem.
                 </p>
               </div>
-              <div className="w-[380px] h-60 bg-white my-10 mx-8 pt-24 rounded-md hover:shadow-lg shadow-gray-500/50  ">
+              <div className="w-[380px] h-64 bg-white my-10 mx-8 pt-24 rounded-md hover:shadow-lg shadow-gray-500/50  ">
                 <h1 className="text-4xl font-bold text-start px-8">Awesome</h1>
                 <p className="w-54 mx-8 text-start pt-4">
                   Adipisci tempora pariatur modi recusandae. Omnis neque
                   dolorum. Natus facere voluptatem.
                 </p>
               </div>
-              <div className="w-[380px] h-60 bg-white  my-10 mx-8 pt-24 rounded-md hover:shadow-lg shadow-gray-500/50  ">
+              <div className="w-[380px] h-64 bg-white  my-10 mx-8 pt-24 rounded-md hover:shadow-lg shadow-gray-500/50  ">
                 <h1 className="text-4xl font-bold text-start px-8">Refined</h1>
                 <p className="w-54 mx-8 text-start pt-4">
                   Adipisci tempora pariatur modi recusandae. Omnis neque
@@ -189,34 +189,34 @@ function Amiso() {
               </div>
             </div>
           </div>
-          <div className="text-center my-16">
-            <div className="text-center py-24 mx-12">
+          <div className="md:h-full text-center">
+            <div className="py-24">
               <h1 className="text-4xl font-bold">Testimonials</h1>
               <p className=" py-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
-                Quisquam, repellendus numquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing <br />
+                elit. Quisquam, repellendus numquam.
               </p>
             </div>
-            <div className="w-full h-full md:flex justify-around flex-wrap">
-              <div className="w-[550px] h-[270px]  border-2 border-gray-200 my-10 mx-4 pt-8 rounded-md">
+            <div className="flex flex-col xs:flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row">
+              <div className="border-2 border-gray-200 bg-white my-10 mx-12 py-12 pt-10 rounded-md">
                 <div className="flex">
                   <img
                     src="/image/men.jpg"
                     className="rounded-full w-16 mx-6"
                   />
-                  <div className="pt-4">
-                    <p className="font-semibold text-start">Aron Lowe</p>
-                    <p>Schneider Inc</p>
+                  <div className="pt-4 text-center">
+                    <p className="font-semibold">Aron Lowe</p>
+                    <p className="text-start">Schneider Inc</p>
                   </div>
                 </div>
-                <p className="w-50 mx-7 text-start pt-8">
+                <p className="mx-8 text-start pt-8">
                   Itaque est odio et rerum harum molestias aliquam. Ullam et aut
                   velit culpa aut. Perferendis nesciunt non voluptatibus
                   mollitia omnis. Dolorem error inventore. Cupiditate nihil modi
                   quos rerum. Mollitia rerum ipsam facere velit.
                 </p>
               </div>
-              <div className="w-[550px] h-[270px] border-2 border-gray-200 hover:border-green-600 bg-white my-10 mx-4 pt-10 rounded-md">
+              <div className=" border-2 border-gray-200 hover:border-green-600 bg-white my-10 mx-12 pt-10 rounded-md">
                 <div className="flex">
                   <img
                     src="/image/men1.jpg"
@@ -227,14 +227,15 @@ function Amiso() {
                     <p className="text-start">Gibson Inc</p>
                   </div>
                 </div>
-                <p className="w-54 mx-8 text-start pt-8">
+                <p className="mx-8 text-start pt-8">
                   Quis voluptatem nobis quibusdam. Fuga aliquid eum repudiandae
                   aut iure omnis. Omnis facere nisi minus ut quos excepturi
                   saepe perspiciatis et. Dolore ut nihil minima natus enim
                   consequuntur aut qui. Ullam dicta labore dolores eos.
                 </p>
               </div>
-              <div className="w-[550px] h-[270px] border-2 border-gray-200  bg-white my-10 mx-4 pt-10 rounded-md">
+
+              <div className="border-2 border-gray-200  bg-white my-10 mx-12 pt-10 rounded-md">
                 <div className="flex">
                   <img
                     src="/image/men2.jpg"
@@ -245,7 +246,7 @@ function Amiso() {
                     <p className="text-start">Kiehn LLC</p>
                   </div>
                 </div>
-                <p className="w-54 mx-8 text-start pt-8">
+                <p className="mx-8 text-start pt-8">
                   Et quibusdam voluptatem molestias cum autem autem et ut. Ad et
                   tenetur. Autem quis id tempora accusantium quod dolores et.
                   Possimus voluptatem hic nulla consequatur voluptates libero
@@ -254,7 +255,7 @@ function Amiso() {
               </div>
             </div>
           </div>
-          <div className="md:w-full h-full bg-green-600 rounded-lg text-center">
+          <div className="md:h-full bg-green-600 rounded-lg text-center">
             <div>
               <h1 className="text-4xl text-white font-bold pt-24">
                 Start your free trial
@@ -268,18 +269,20 @@ function Amiso() {
                 <input
                   type="email"
                   placeholder="Your email address"
-                  className="w-80 h-14 text-gray-700 outline-none rounded-l-lg my-4 px-4"
+                  className="w-64 h-14 text-gray-700 outline-none rounded-l-lg my-4 px-4"
                 />
               </div>
-              <div className="md:w-32 h-14 font-semibold bg-green-700 hover:bg-green-800 py-4 mt-4 text-white rounded-r-lg">
-                <button>Get Started</button>
+              <div>
+                <button className="w-64 h-14 font-semibold bg-green-700 hover:bg-green-800 py-4 mt-4 text-white rounded-r-lg">
+                  Get Started
+                </button>
               </div>
             </div>
           </div>
           <hr className=" my-12 mx-10" />
           <footer>
-            <div className="md:flex justify-center items-center relative py-8 mx-12">
-              <div className="w-[25%] flex text-2xl cursor-pointer items-center">
+            <div className="md:flex justify-between py-8 mx-8">
+              <div className="flex text-2xl cursor-pointer items-center">
                 <a href="#">
                   <img
                     src="/image/logo.svg"
@@ -288,35 +291,43 @@ function Amiso() {
                   />
                 </a>
               </div>
-              <div className="w-[50%] flex text-center font-bold mt-8  gap-12">
-                <div className="py-4">
+              <div className="md:flex text-center font-bold">
+                <div className="mx-4">
                   <a href="#" className="hover:text-green-600">
                     Features
                   </a>
                 </div>
-                <div className="py-4">
+                <div className="mx-4">
                   <a href="#" className="hover:text-green-600">
                     Prices
                   </a>
                 </div>
-                <div className="py-4">
+                <div className="mx-4">
                   <a href="#" className="hover:text-green-600">
                     About
                   </a>
                 </div>
-                <div className="py-4">
+                <div className="mx-4">
                   <a href="#" className="hover:text-green-600">
                     Contacts
                   </a>
                 </div>
               </div>
-              <div className="w-[25%] md:flex mx-24">
-                <a href="#">
-                  <img src="/image/book.svg" alt="amiso" className="w-8 mx-4" />
-                </a>
-                <a href="#">
-                  <img src="/image/twite.svg" alt="amiso" className="w-8" />
-                </a>
+              <div className="flex">
+                <div>
+                  <a href="#">
+                    <img
+                      src="/image/book.svg"
+                      alt="amiso"
+                      className="w-8 mx-4"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a href="#">
+                    <img src="/image/twite.svg" alt="amiso" className="w-8" />
+                  </a>
+                </div>
               </div>
             </div>
             <div>
